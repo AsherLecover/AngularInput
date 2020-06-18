@@ -1,0 +1,16 @@
+
+<p>----------------Using Input---With input tag----------------------------------</p>
+
+<input #input (input)="inputName = input.value" /><br>
+
+<app-child [name]="input.value"></app-child>
+
+<p>----------------Using Input-------------------------------------</p>
+
+<app-child></app-child>
+
+<p>-------------Without--Using Input------------------------------</p>
+
+<app-child name="David"></app-child>
+
+
